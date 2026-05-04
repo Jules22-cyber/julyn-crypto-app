@@ -61,7 +61,7 @@ function Learn() {
 
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-[1260px]">
+      <div className="mx-auto max-w-315">
         <LearnHero 
           title="Crypto questions, answered"
           description="Beginner guides, practical tips, and market updates for first-timers, experienced investors, and everyone in between"
@@ -79,7 +79,6 @@ function Learn() {
 
         <LearnCategories categories={categories} />
 
-        {/* CRYPTO BASICS */}
         <LearnContentSection 
           title="Crypto basics"
           description="New to crypto? Not for long — start with these guides and explainers"
@@ -109,21 +108,21 @@ function Learn() {
 
       <WhatIsGrid terms={terms} />
 
-      <div className="mx-auto max-w-[1260px]">
+      <div className="mx-auto max-w-315">
         {/* TIPS AND TUTORIALS - Special 2x2 Layout */}
-        <section className="border-t border-[#e5e7eb] px-10 py-[106px]">
-          <div className="mx-auto max-w-[1100px]">
+        <section className="border-t border-[#e5e7eb] px-10 py-26.5">
+          <div className="mx-auto max-w-275">
             <SectionHeader 
               title="Tips and tutorials" 
               description="Get practical, step-by-step answers to all things crypto" 
             />
-            <div className="mt-[70px] grid grid-cols-1 gap-[44px] md:grid-cols-2">
+            <div className="mt-17.5 grid grid-cols-1 gap-11 md:grid-cols-2">
               <ArticleCard image={tips1} tag="GETTING STARTED" title="How to donate crypto" />
               <ArticleCard image={tips2} tag="VIDEO TUTORIAL" title="How to set up a crypto wallet" video />
               <ArticleCard image={tips3} tag="VIDEO TUTORIAL" title="When is the best time to invest in crypto?" video />
               <ArticleCard image={tips4} tag="YOUR CRYPTO" title="How to invest in crypto via your retirement account" />
             </div>
-            <div className="mt-[70px] flex justify-center">
+            <div className="mt-17.5 flex justify-center">
               <Button variant="primary" size="sm">
                 See more tips and tutorials
                 <span className="ml-2 text-[18px]">›</span>
@@ -132,20 +131,19 @@ function Learn() {
           </div>
         </section>
 
-        {/* ADVANCED TRADING - Special 2x2 Layout */}
-        <section className="border-t border-[#e5e7eb] px-10 py-[106px]">
-          <div className="mx-auto max-w-[1100px]">
+        <section className="border-t border-[#e5e7eb] px-10 py-26.5">
+          <div className="mx-auto max-w-275">
             <SectionHeader 
               title="Advanced trading" 
               description="Ready to advance? Learn the tools and terminology you need to take control of your trades." 
             />
-            <div className="mt-[70px] grid grid-cols-1 gap-[44px] md:grid-cols-2">
+            <div className="mt-17.5 grid grid-cols-1 gap-11 md:grid-cols-2">
               <ArticleCard image={advanced1} tag="KEY TERM" title="What is technical analysis?" />
               <ArticleCard image={advanced2} tag="ADVANCED GUIDE" title="How can I use crypto futures market data for spot trading?" />
               <ArticleCard image={advanced3} tag="ADVANCED GUIDE" title="How to read advanced trading charts" video />
               <ArticleCard image={advanced4} tag="KEY TERM" title="What is an order book?" />
             </div>
-            <div className="mt-[70px] flex justify-center">
+            <div className="mt-17.5 flex justify-center">
               <Button variant="primary" size="sm">
                 See more advanced trading
                 <span className="ml-2 text-[18px]">›</span>
@@ -154,20 +152,19 @@ function Learn() {
           </div>
         </section>
 
-        {/* FUTURES - Special 2x2 Layout */}
-        <section className="border-t border-[#e5e7eb] px-10 py-[106px]">
-          <div className="mx-auto max-w-[1100px]">
+        <section className="border-t border-[#e5e7eb] px-10 py-26.5">
+          <div className="mx-auto max-w-275">
             <SectionHeader 
               title="Futures" 
               description="New to futures trading? Get up to speed on the basics." 
             />
-            <div className="mt-[70px] grid grid-cols-1 gap-[44px] md:grid-cols-2">
+            <div className="mt-17.5 grid grid-cols-1 gap-11 md:grid-cols-2">
               <ArticleCard image={futures1} title="Futures: Introductions and origins" />
               <ArticleCard image={futures2} title="Futures fundamentals: Understanding the basics" />
               <ArticleCard image={futures3} title="Opening, holding, and closing a position in the futures market" />
               <ArticleCard image={futures4} title="Trading strategies: Speculating, hedging, and spreading in the futures market" />
             </div>
-            <div className="mt-[70px] flex justify-center">
+            <div className="mt-17.5 flex justify-center">
               <Button variant="primary" size="sm">
                 See more about futures
                 <span className="ml-2 text-[18px]">›</span>
@@ -176,14 +173,13 @@ function Learn() {
           </div>
         </section>
 
-        {/* ALL THINGS WALLET */}
-        <section className="border-t border-[#e5e7eb] px-10 py-[106px]">
-          <div className="mx-auto max-w-[1100px]">
+        <section className="border-t border-[#e5e7eb] px-10 py-26.5">
+          <div className="mx-auto max-w-275">
             <SectionHeader 
               title="All Things Wallet" 
               description="Earn yield, dive into crypto apps, control your holdings, and much more" 
             />
-            <div className="mt-[70px] grid grid-cols-1 gap-[44px] md:grid-cols-2">
+            <div className="mt-17.5 grid grid-cols-1 gap-11 md:grid-cols-2">
               <ArticleCard 
                 image={wallet1} 
                 title="What’s the difference between Coinbase and Coinbase Wallet?" 
@@ -208,7 +204,7 @@ function Learn() {
                 description="Coinbase Wallet helps you unlock one of the most significant features of crypto: the ability to send or receive peer-to-peer transfers without any financial intermediaries." 
               />
             </div>
-            <div className="mt-[70px] flex justify-center">
+            <div className="mt-17.5 flex justify-center">
               <Button to="/learn" variant="primary" size="sm">
                 See more Wallet articles
                 <span className="ml-2 text-[18px]">›</span>
